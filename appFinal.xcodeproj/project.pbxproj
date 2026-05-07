@@ -6,13 +6,36 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		527163B52FACE61E00BA7481 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 527163B42FACE61E00BA7481 /* SwiftSoup */; };
+		527163FE2FACE91400BA7481 /* Formula1-Display-Wide.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 527163FB2FACE91400BA7481 /* Formula1-Display-Wide.ttf */; };
+		527163FF2FACE91400BA7481 /* Formula1-Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 527163FC2FACE91400BA7481 /* Formula1-Display-Bold.ttf */; };
+		527164002FACE91400BA7481 /* Formula1-Display-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 527163FD2FACE91400BA7481 /* Formula1-Display-Regular.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		527163A52FACE5FF00BA7481 /* appFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527163FB2FACE91400BA7481 /* Formula1-Display-Wide.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Formula1-Display-Wide.ttf"; sourceTree = "<group>"; };
+		527163FC2FACE91400BA7481 /* Formula1-Display-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Formula1-Display-Bold.ttf"; sourceTree = "<group>"; };
+		527163FD2FACE91400BA7481 /* Formula1-Display-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Formula1-Display-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		527164022FACE94400BA7481 /* Exceptions for "appFinal" folder in "appFinal" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 527163A42FACE5FF00BA7481 /* appFinal */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		527163A72FACE5FF00BA7481 /* appFinal */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				527164022FACE94400BA7481 /* Exceptions for "appFinal" folder in "appFinal" target */,
+			);
 			path = appFinal;
 			sourceTree = "<group>";
 		};
@@ -23,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527163B52FACE61E00BA7481 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +56,9 @@
 		5271639C2FACE5FF00BA7481 = {
 			isa = PBXGroup;
 			children = (
+				527163FB2FACE91400BA7481 /* Formula1-Display-Wide.ttf */,
+				527163FC2FACE91400BA7481 /* Formula1-Display-Bold.ttf */,
+				527163FD2FACE91400BA7481 /* Formula1-Display-Regular.ttf */,
 				527163A72FACE5FF00BA7481 /* appFinal */,
 				527163A62FACE5FF00BA7481 /* Products */,
 			);
@@ -65,6 +92,7 @@
 			);
 			name = appFinal;
 			packageProductDependencies = (
+				527163B42FACE61E00BA7481 /* SwiftSoup */,
 			);
 			productName = appFinal;
 			productReference = 527163A52FACE5FF00BA7481 /* appFinal.app */;
@@ -94,6 +122,9 @@
 			);
 			mainGroup = 5271639C2FACE5FF00BA7481;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				527163B32FACE61E00BA7481 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 527163A62FACE5FF00BA7481 /* Products */;
 			projectDirPath = "";
@@ -109,6 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527163FE2FACE91400BA7481 /* Formula1-Display-Wide.ttf in Resources */,
+				527163FF2FACE91400BA7481 /* Formula1-Display-Bold.ttf in Resources */,
+				527164002FACE91400BA7481 /* Formula1-Display-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +290,7 @@
 				DEVELOPMENT_TEAM = 7K3Y7Y8WR6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = appFinal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +323,7 @@
 				DEVELOPMENT_TEAM = 7K3Y7Y8WR6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = appFinal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -332,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		527163B32FACE61E00BA7481 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.13.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		527163B42FACE61E00BA7481 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 527163B32FACE61E00BA7481 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5271639D2FACE5FF00BA7481 /* Project object */;
 }

@@ -8,5 +8,12 @@
 		<string>Formula1-Display-Bold.ttf</string>
 		<string>Formula1-Display-Wide.ttf</string>
 	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchScreenBackgroundColor</string>
+		<key>UIImageName</key>
+		<string>loadingAcademy</string>
+	</dict>
 </dict>
 </plist>

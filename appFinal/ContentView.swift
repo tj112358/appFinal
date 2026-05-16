@@ -18,10 +18,10 @@ struct ContentView: View {
 //                .tabItem {
 //                    Label("Schedule", systemImage: "calendar")
 //                }
-//            StandingsPage()
-//                .tabItem {
-//                    Label("Standings", systemImage: "flag.pattern.checkered.2.crossed")
-//                }
+            StandingsPage()
+                .tabItem {
+                    Label("Standings", systemImage: "flag.pattern.checkered.2.crossed")
+                }
 //            WatchPage()
 //                .tabItem{
 //                    Label("Watch", systemImage: "play")
